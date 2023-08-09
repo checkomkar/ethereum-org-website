@@ -12,6 +12,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import { useI18next, useTranslation } from "gatsby-plugin-react-i18next"
 import React from "react"
 import { FaDiscord, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa"
+import { TwitterXIcon } from "./icons/quiz/TwitterXIcon"
 
 import { Lang } from "../utils/languages"
 import { getLocaleTimestamp } from "../utils/time"
@@ -27,7 +28,7 @@ const socialLinks = [
     color: "#333",
   },
   {
-    icon: FaTwitter,
+    icon: TwitterXIcon,
     to: "https://twitter.com/ethdotorg",
     ariaLabel: "Twitter",
     color: "#1DA1F2",

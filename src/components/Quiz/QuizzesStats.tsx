@@ -15,6 +15,7 @@ import { useI18next } from "gatsby-plugin-react-i18next"
 import Button from "../Button"
 import Translation from "../Translation"
 import { TrophyIcon } from "../icons/quiz"
+import { TwitterXIcon } from "../icons/quiz/TwitterXIcon"
 
 import { QuizzesHubContext } from "./context"
 
@@ -97,7 +98,7 @@ const QuizzesStats: React.FC = () => {
           >
             <Button
               variant="outline-color"
-              leftIcon={<FaTwitter />}
+              leftIcon={<TwitterXIcon />}
               onClick={() =>
                 handleShare({ score: userScore, total: totalQuizzesPoints })
               }
